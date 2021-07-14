@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="stu" class="com.atqin.spring5.coll.Stu">
+        <property name="cous">
+            <array>
+                <value>java</value>
+                <value>mysql</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>aa</value>
+                <value>bb</value>
+                <value>cc</value>
+            </list>
+        </property>
+        <property name="maps">
+            <map>
+                <entry key="1" value="a"></entry>
+                <entry key="2" value="b"></entry>
+            </map>
+        </property>
+        <property name="sets">
+            <set>
+                <value>mysql</value>
+                <value>oracle</value>
+                <value>oracle1</value>
+            </set>
+        </property>
+    </bean>
+</beans>
