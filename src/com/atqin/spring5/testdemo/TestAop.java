@@ -7,6 +7,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestAop {
 
+
+
     @Test
     public void test(){
         ApplicationContext context =
